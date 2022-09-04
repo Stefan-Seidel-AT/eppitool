@@ -4,7 +4,7 @@
 ## Information for the "end user":  ##
 ######################################
 # If you use this program package you agree that this software comes with NO WARRANTY and 
-# NO LEGAL CLAIMS can be derived towards the author. Feel free to share, but use responsibly.
+# NO LEGAL CLAIMS can be derived towards the author. Feel free to share and use responsibly.
 
  The program "playwright_eppi_login.py" accesses an user account after providing
  "username" and "password" of your Eppendorf account at  the Eppendorf homepage
