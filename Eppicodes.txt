@@ -1,0 +1,6 @@
+###################################################################
+# Please enter your Eppicodes in one(!) column                    #
+# (the case is irrelevant! :-) )                                  #
+# But be careful with letter"O" and number "0"!		          #								  #
+# lines with '#' are protected and are not sent to the webpage    #
+###################################################################
