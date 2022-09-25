@@ -7,14 +7,17 @@
 If you use this program package you agree that this software comes with NO WARRANTY and 
 NO LEGAL CLAIMS can be derived towards the author. Feel free to share and use responsibly.
 
+
 Objective:
+
  The program "playwright_eppi_login.py" accesses an user account after providing
  "username" and "password" of your Eppendorf account at  the Eppendorf homepage
   ( https://www.eppendorf.com/at-de/ ) and enters "Eppoint-codes" stored in one 
  column in the "Eppicodes.txt" file.
  
  
-Considerations: 
+Considerations:
+
  Please keep in mind that this walkthough is written for Linux based environments
 
  Therefore please make sure that the "Eppicodes.txt"-file
