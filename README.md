@@ -16,12 +16,18 @@ Objective:
  column in the "Eppicodes.txt" file.
  
  
+ Usage: 
+ "./playwright_eppi_login.py Eppicodes.txt"
+ for further options: 
+ "./playwright_eppi_login --help"
+ 
+ 
 Considerations:
 
  Please keep in mind that this walkthough is written for Linux based environments
 
  Therefore please make sure that the "Eppicodes.txt"-file
-        - is stored in the same folder as the executable "playwright_eppi_login.pl"
+        - is stored in the same folder as the executable "playwright_eppi_login.py"
         - the "Eppicode.txt"-file must NOT be renamed!
         - follow the instructions in the "Eppicodes.txt" file for entering the format
           of the codes
@@ -55,15 +61,15 @@ You need a pyhton interpreter to run and following modules that you can download
  pip3 install bs4
 
 
-and maybe these modules if not already installed on your pc
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError # for web automation
-import requests                                                              # for webrequests
-from bs4 import BeautifulSoup                                                # data collection from websites
-import re                                                                    # for regex
-import argparse                                                              # parsing arguments from command line
-import getpass                                                               # parsing password
-import time
-import show_stats                                                            # showing statistics of eppitransfer (custom module)
+and these modules if not already installed on your pc:
+- from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError # for web automation
+- import requests                                                              # for webrequests
+- from bs4 import BeautifulSoup                                                # data collection from websites
+- import re                                                                    # for regex
+- import argparse                                                              # parsing arguments from command line
+- import getpass                                                               # parsing password
+- import time
+- import show_stats                                                            # showing statistics of eppitransfer (custom module)
 
 
 
