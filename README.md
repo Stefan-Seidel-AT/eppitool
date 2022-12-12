@@ -4,29 +4,31 @@
 ## Information for the End user:  ##
 ######################################
 
-If you use this program package you agree that this software comes with NO WARRANTY and 
-NO LEGAL CLAIMS can be derived towards the author. Feel free to share and use responsibly.
+If you use this program package you agree that this software comes with NO warranty and 
+NO legal claims can be derived towards the author. Feel free to share and use responsibly.
 
 
 Objective:
 
- The program "playwright_eppi_login.py" accesses an user account after providing
+ The program "playwright_eppi_login.py" accesses a user account after providing
  "username" and "password" of your Eppendorf account at  the Eppendorf homepage
-  ( https://www.eppendorf.com/at-de/ ) and enters "Eppoint-codes" stored in one 
- column in the "Eppicodes.txt" file.
+  ( https://www.eppendorf.com/at-de/ ) and enters "Eppoint-codes" (from Eppendorf product 
+  bonus program) stored in one column in the "Eppicodes.txt" file.
  
  
- Usage: 
+Usage: 
  "./playwright_eppi_login.py Eppicodes.txt"
+ 
  for further options: 
  "./playwright_eppi_login --help"
  
- 
+
+
 Considerations:
 
- Please keep in mind that this walkthough is written for Linux based environments
+ (This walkthough is written for Linux based environments)
 
- Therefore please make sure that the "Eppicodes.txt"-file
+ Please make sure that the "Eppicodes.txt"-file
         - is stored in the same folder as the executable "playwright_eppi_login.py"
         - the "Eppicode.txt"-file must NOT be renamed!
         - follow the instructions in the "Eppicodes.txt" file for entering the format
@@ -73,7 +75,7 @@ and these modules if not already installed on your pc:
 
 
 
-!!!! if you access the internet via a proxy_server you need to change the script:
+! if you access the internet via a proxy_server you need to change the script:
 CAVE: !!! this has not been tested yet !!!
 - delete the first '#' in the beginning of the line in line 97 to line 102
 - update the username and password for the proxyserver to use 
