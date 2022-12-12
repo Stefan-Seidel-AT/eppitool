@@ -1,14 +1,14 @@
-# Eppitool
+## Eppitool
 
 ##################################################################################
-## Information for the End user:  ##
+**Information for the End user:**
 ######################################
 
 If you use this program package you agree that this software comes with NO warranty and 
 NO legal claims can be derived towards the author. Feel free to share and use responsibly.
 
 
-Objective:
+**Objective:**
 
  The program "playwright_eppi_login.py" accesses a user account after providing
  "username" and "password" of your Eppendorf account at  the Eppendorf homepage
@@ -16,15 +16,20 @@ Objective:
   bonus program) stored in one column in the "Eppicodes.txt" file.
  
  
-Usage: 
- "./playwright_eppi_login.py Eppicodes.txt"
- 
- for further options: 
- "./playwright_eppi_login --help"
- 
+**Usage:**
 
-
-Considerations:
+    ./playwright_eppi_login.py Eppicodes.txt
+   
+ further **options** available: 
+     
+     ./playwright_eppi_login.py --help 
+     
+     ./playwright_eppi_login.py -q Eppicodes.txt                # (do not show actions of program in internet browser window)
+     
+     ./playwright_eppi_login.py -n Eppicodes.txt                # (do not add information to/or show stats file)
+ 
+ 
+ **Considerations:**
 
  (This walkthough is written for Linux based environments)
 
@@ -44,9 +49,14 @@ Considerations:
 
 
 
+
+
 #####################################################################################
-## requirements to run:   ##
-############################
+  
+**requirements to run:**
+
+
+###########################################
 
 stored in same folder:
 - "playwright_eppi_login.py" -> executable file
